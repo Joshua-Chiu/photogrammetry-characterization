@@ -1,0 +1,3 @@
+[submodule "ios-depth-point-cloud"]
+	path = ios-depth-point-cloud
+	url = git@github.com:Waley-Z/ios-depth-point-cloud.git
