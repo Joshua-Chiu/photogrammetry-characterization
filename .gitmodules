@@ -1,0 +1,9 @@
+[submodule "ObjectCaptureApp"]
+	path = ObjectCaptureApp
+	url = git@github.com:KKodiac/ObjectCaptureApp.git
+[submodule "Meshroom"]
+	path = Meshroom
+	url = git@github.com:alicevision/Meshroom.git
+[submodule "scaniverse"]
+	path = scaniverse
+	url = git@github.com:scaniverse/scaniverse.git
