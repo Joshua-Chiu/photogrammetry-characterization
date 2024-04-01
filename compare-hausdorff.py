@@ -24,8 +24,8 @@ def main():
     GROUNDTRUTH_NORMALIZATION_FACTOR = 165.88/2
 
     # Load vertices from OBJ files and normalize coordinates
-    vertices_truth = normalize_coordinates(load_obj_file("groundtruth.obj"))
-    vertices_scan = normalize_coordinates(load_obj_file("1-rotated.obj"))
+    vertices_truth = normalize_coordinates(load_obj_file(sys.argv[1]))
+    vertices_scan = normalize_coordinates(load_obj_file(sys.argv[2]))
 
     # Compute Hausdorff distance
     hausdorff_dist = hausdorff_distance(vertices_truth, vertices_scan)

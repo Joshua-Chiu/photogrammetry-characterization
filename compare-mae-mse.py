@@ -29,8 +29,8 @@ def compute_mean_squared_error(distances):
 def main():
     GROUNDTRUTH_NORMALIZATION_FACTOR = 165.88/2
     # Load OBJ files
-    ground_truth_points = load_obj_file("groundtruth.obj")
-    scanned_points = load_obj_file("1-rotated.obj")
+    ground_truth_points = load_obj_file(sys.argv[1])
+    scanned_points = load_obj_file(sys.argv[2])
 
     # Normalize coordinates (optional)
     ground_truth_points = normalize_coordinates(ground_truth_points)
